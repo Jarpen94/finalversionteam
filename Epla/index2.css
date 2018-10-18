@@ -1,0 +1,14 @@
+.section.team-container{
+    display: flex;
+}
+.box{
+height: 100px;
+min-width: 100px;
+}
+
+.one{
+    background: red;
+}
+.two{
+    background:blue;
+}
