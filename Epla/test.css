@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    border-radius: 50%;
+    flex-wrap: wrap;
+
+    }
+.section-team__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.section-team__container-elements p{
+    display: flex;
+    justify-content: center;
+    font-family: 'Capriola', sans-serif;
+}
+
+.section-team__container-elements a{
+    display: flex;
+    justify-content: center;
+    transition: 0.3s transform linear;
+}
+  
+  .section-team__container-elements a:hover {
+    transform: scale(1.2);
+    transform: rotateY(360deg);
+}
+/* pytanie czy lepszy transform pierwszy czy drugi*/
+  
+}
+.section-team__container-elements img{
+    box-shadow: 0 0 30px #000;
+}
+
+@media only screen and (max-width:767px){
+    .section-team__container{
+        
+        display: flex; 
+        justify-content:center;
+        //flex-basis: auto;
+        //justify-content: center;
+
+       
+    }
+    .section-team__container-elements a{
+        display:flex;
+        align-items: flex-start;
+        
+    }
+    .section-team__container-elements img{
+        display: flex;
+        justify-content:center;
+        margin:15px;
+    }
+    .section-team__container-elements p{
+        display: flex;
+        justify-content: center;
+        
+    }
+}
